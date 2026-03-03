@@ -1,0 +1,25 @@
+{
+  "name": "why-linux-slides",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "mcp:playwright": "playwright-mcp",
+    "test": "node -e \"console.log('No tests yet')\""
+  },
+  "dependencies": {
+    "reveal.js": "5.2.1"
+  },
+  "devDependencies": {
+    "@playwright/mcp": "^0.0.68",
+    "@playwright/test": "^1.53.0",
+    "@types/reveal.js": "^5.2.2",
+    "http-server": "^14.1.1",
+    "typescript": "^5.7.3",
+    "vite": "^5.4.12"
+  }
+}
